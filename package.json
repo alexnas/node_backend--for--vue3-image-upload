@@ -1,0 +1,24 @@
+{
+  "name": "backend-for-vue3-image-upload",
+  "version": "1.0.0",
+  "description": "Backend for image upload app.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "backend",
+    "image",
+    "upload"
+  ],
+  "author": "Alexander Nasokin",
+  "license": "MIT",
+  "dependencies": {
+    "cloudinary": "^1.28.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.15"
+  }
+}
